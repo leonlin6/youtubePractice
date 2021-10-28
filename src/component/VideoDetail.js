@@ -1,7 +1,7 @@
 import React from 'react'
 
 const VideoDetail = ({video}) => {
-
+    const branchTest = 'branch test';
     if(!video){
         return (
             <div className="container ui segment">
